@@ -1,0 +1,34 @@
+🎯 Goal:
+
+You want to:
+
+Build a simple To-Do app in TypeScript
+
+Turn it into a Progressive Web App (PWA) (installable)
+
+Make it work in development (local testing)
+
+Make it work in deployment (on GitHub Pages, Netlify, etc.)
+
+🧱 Step-by-Step Plan
+
+We’ll build everything step by step, starting from folder structure.
+
+📁 1. PROJECT FOLDER STRUCTURE
+
+Create a folder like:
+
+todo-pwa/
+├── src/
+│   └── script.ts          ← your TypeScript code
+├── public/
+│   ├── index.html         ← main HTML
+│   ├── script.js          ← compiled JS (copied from dist)
+│   ├── manifest.json      ← manifest for PWA
+│   ├── sw.js              ← service worker
+│   └── icons/             ← icons for install
+│       ├── icon-192.png
+│       └── icon-512.png
+├── dist/                  ← auto-generated JS from TypeScript
+├── package.json
+├── tsconfig.json
